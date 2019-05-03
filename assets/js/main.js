@@ -398,4 +398,15 @@
 						$main._show(location.hash.substr(1), true);
 					});
 
+			
+			// Animate Text
+			var animateSpan = jQuery('.animate-text');
+
+			animateSpan.typed({
+				strings: ["Software Developer", "DevOps Architect", "Data Scientist"],
+				loop: true,
+				startDelay: 1e3,
+				backDelay: 2e3
+			});
+
 })(jQuery);

@@ -1279,6 +1279,18 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 
+			#header .logo img {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: auto;
+				border: 3px solid #fff;
+				border-radius: 100%;
+				-moz-border-radius: 100%;
+				-webkit-border-radius: 100%;
+				-khtml-border-radius: 100%;
+			}
+
 		#header .content {
 			border-style: solid;
 			border-color: #ffffff;
@@ -1636,3 +1648,9 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Style */
+
+	.accent-color {
+		color: #E3872D
+	}
