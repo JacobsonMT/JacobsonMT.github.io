@@ -1654,3 +1654,16 @@ input, select, textarea {
 	.accent-color {
 		color: #E3872D
 	}
+
+	.article {
+		font-size: 0.8rem;
+	}
+
+		.article-authors {
+			padding-left: 1rem;
+		}
+
+		.article-journal {
+			padding-left: 1rem;
+			color: #6c757d;
+		}
