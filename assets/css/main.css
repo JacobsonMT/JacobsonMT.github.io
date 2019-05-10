@@ -115,7 +115,7 @@ input, select, textarea {
 		font-size: 16pt;
 	}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1250px) {
 
 			html {
 				font-size: 12pt;
@@ -1651,6 +1651,11 @@ input, select, textarea {
 
 /* Style */
 
+	article p {
+		font-size: 0.8rem;
+		margin-bottom: 0.3rem;
+	}
+
 	.accent-color {
 		color: #E3872D
 	}
@@ -1669,7 +1674,7 @@ input, select, textarea {
 		}
 
 	.education-entry {
-		font-size: 0.8rem;
+		/* font-size: 0.8rem; */
 		padding-left: 2rem;
 		margin-bottom: 1rem;
 	}
@@ -1690,6 +1695,7 @@ input, select, textarea {
 			.education-year {
 				/* float: right; */
 				display: block;
+				white-space: nowrap;
 				-webkit-box-ordinal-group: 3;
 				-webkit-order: 3;
 				-moz-order: 3;
@@ -1732,15 +1738,17 @@ input, select, textarea {
 
 		.education-degree {
 			padding-left: 1rem;
+			font-size: 0.9rem;
 		}
 
 		.education-program {
 			padding-left: 1rem;
+			font-size: 0.9rem;
 		}
 
 
 	.work-entry {
-		font-size: 0.8rem;
+		/* font-size: 0.8rem; */
 		padding-left: 2rem;
 		margin-bottom: 1rem;
 	}
@@ -1761,6 +1769,7 @@ input, select, textarea {
 			.work-year {
 				/* float: right; */
 				display: block;
+				white-space: nowrap;
 				-webkit-box-ordinal-group: 3;
 				-webkit-order: 3;
 				-moz-order: 3;
@@ -1781,17 +1790,14 @@ input, select, textarea {
 
 		.work-position {
 			padding-left: 1rem;
+			font-size: 0.9rem;
 		}
 
 		.work-details {
-			font-size: 0.7rem;
+			/* font-size: 0.7rem; */
 			padding-left: 2rem;
 		}
 
 			.work-details ul, .work-details ol {
 				margin: 0;
-			}
-
-			.work-details p {
-				margin-bottom: 0.3rem;
 			}
