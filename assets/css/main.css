@@ -1801,3 +1801,30 @@ input, select, textarea {
 			.work-details ul, .work-details ol {
 				margin: 0;
 			}
+
+	.skill-column {
+		float: left;
+		width: 33.33%;
+		padding-right: 0.5rem;
+	}
+
+		.skill-column li {
+			font-size: 0.8rem;
+			padding-left: 0;
+		}
+
+		.skill-header {
+			color: #E3872D;
+			font-weight: 600;
+		}
+
+
+
+	@media screen and (max-width: 480px) {
+
+		.skill-column {
+			float: none;
+			width: auto;
+		}
+
+	}
