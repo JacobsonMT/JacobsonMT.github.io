@@ -1802,6 +1802,10 @@ input, select, textarea {
 				margin: 0;
 			}
 
+	.skills {
+		overflow: auto;
+	}
+
 	.skill-column {
 		float: left;
 		width: 33.33%;
