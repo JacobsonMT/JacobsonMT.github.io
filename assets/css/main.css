@@ -1651,6 +1651,10 @@ input, select, textarea {
 
 /* Style */
 
+	input.primary:hover {
+		background-color: #E3872D;
+	}
+
 	article p {
 		font-size: 0.8rem;
 		margin-bottom: 0.3rem;
@@ -1663,6 +1667,11 @@ input, select, textarea {
 	.article {
 		font-size: 0.8rem;
 	}
+
+		.article-title {
+			color: #E3872D;
+			font-weight: 600;
+		}
 
 		.article-authors {
 			padding-left: 1rem;
