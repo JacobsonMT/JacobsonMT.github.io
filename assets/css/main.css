@@ -1894,3 +1894,11 @@ input, select, textarea {
 			}
 
 		}
+
+	article#about p > b {
+		color: #E3872D;
+	}
+
+	article#about ul.icons {
+		margin-top: 1rem;
+	}
