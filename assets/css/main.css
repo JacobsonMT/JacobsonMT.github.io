@@ -1832,3 +1832,55 @@ input, select, textarea {
 		}
 
 	}
+
+	.project-entry {
+		overflow: auto;
+	}
+
+		.project-title {
+			color: #E3872D;
+			font-weight: 600;
+			margin-bottom: 0.5rem;
+		}
+
+			.project-title .icon {
+				height: 1.5rem;
+				width: 1.5rem;
+				line-height: 1.5rem;
+				color: white;
+				border-radius: 100%;
+				box-shadow: inset 0 0 0 1px #ffffff;
+				display: inline-block;
+				text-align: center;
+				margin-left: 0.5rem;
+			}
+
+			.project-title .icon:hover, .project-title .icon:active {
+				background-color: rgba(255, 255, 255, 0.075);
+			}
+
+		.project-entry img {
+			float: left;
+			margin: 0.5rem 1rem;
+			overflow: auto;
+			width: 100%;
+			max-width: 300px;
+		}
+
+		.project-entry p {
+			text-align: justify;
+			margin: 0.5rem 1rem;
+		}
+
+		@media screen and (max-width: 550px) {
+
+			.project-entry img {
+				margin: 0;
+				float: none;
+			}
+
+			.project-entry p {
+				margin: 0;
+			}
+
+		}
