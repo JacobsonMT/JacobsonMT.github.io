@@ -1811,6 +1811,17 @@ input, select, textarea {
 				margin: 0;
 			}
 
+			.work-details p, .work-details li {
+				line-height: 1.5;
+				padding-left: .5em;
+				text-indent: -.5em;
+			}
+
+			.work-details li {
+				font-size: 0.8rem;
+				margin-bottom: 0.1rem;
+			}
+
 	.skills {
 		overflow: auto;
 	}
